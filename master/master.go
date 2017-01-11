@@ -4,13 +4,11 @@ import (
 	"errors"
 	"log"
 	"net"
-
-
-	"github.com/songgao/packets/ethernet"
 	"golang.org/x/net/websocket"
 	"net/http"
 	"sync"
 	"github.com/kenan435/overlay/common"
+	"github.com/kenan435/overlay/packets/ethernet"
 )
 
 type client struct {
