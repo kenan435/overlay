@@ -129,7 +129,7 @@ func server(args []string) {
 
 	err = september.Configure(conf.septemberConfig)
 	if err != nil {
-		log.Println("Creating September failed. Following message might help:\n")
+		log.Println("Creating September failed.")
 		return
 	}
 
